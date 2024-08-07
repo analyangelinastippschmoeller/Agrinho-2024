@@ -1,62 +1,114 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empreendedorismo Rural</title>
+    <title>Projeto Agrinho - Empreendedorismo Rural</title>
     <style>
-        /* Estilos CSS podem ser adicionados aqui */
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
+            background-color: #f9f9f9;
         }
         header {
-            background-color: #2eaf0e;
+            background-color: #5aab61;
             color: #fff;
-            padding: 10px;
+            padding: 10px 0;
             text-align: center;
         }
         nav {
-            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background: #333;
+            color: #fff;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0;
             padding: 10px;
-            text-align: center;
         }
-        nav a {
+        nav ul li a {
+            color: #fff;
             text-decoration: none;
-            color: #333;
-            padding: 5px 10px;
+            display: block;
         }
-        nav a:hover {
-            background-color: #ddd;
+        main {
+            padding: 20px;
         }
         section {
-            padding: 20px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Empreendedorismo Rural</h1>
-</header>
-
-<nav>
-    <a href="#">Página Principal</a>
-    <a href="#">Sobre</a>
-    <a href="#">Contato</a>
-</nav>
-
-<section>
-    <h2>Projeto do Agrinho!</h2>
-    <p>O empreendedorismo rural é um tema muito relevante, pois promove o desenvolvimento econômico</p>
-        <p> e social nas comunidades rurais, estimula a inovação e ajuda a diversificar as atividades econômicas </p>
-         <p>além da agricultura tradicional. </p>
-</section>
-
-<footer>
-    <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
-</footer>
-
+    <header>
+        <h1>Projeto Agrinho - Empreendedorismo Rural</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#atividades">Atividades</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Projeto Agrinho</h2>
+            <p>O Projeto Agrinho visa promover o empreendedorismo rural, capacitando jovens para se tornarem líderes no setor agrícola. Nosso objetivo é fomentar a inovação e a sustentabilidade através de iniciativas práticas e educacionais.</p>
+        </section>
+        <section id="objetivos">
+            <h2>Objetivos do Projeto</h2>
+            <ul>
+                <li><strong>Capacitação Empreendedora:</strong> Oferecer formação em gestão de negócios rurais e práticas empreendedoras.</li>
+                <li><strong>Sustentabilidade:</strong> Ensinar métodos agrícolas sustentáveis e a importância da preservação ambiental.</li>
+                <li><strong>Inovação:</strong> Incentivar a aplicação de novas tecnologias e métodos inovadores na agricultura.</li>
+                <li><strong>Desenvolvimento Comunitário:</strong> Promover o desenvolvimento econômico e social das comunidades rurais.</li>
+            </ul>
+        </section>
+        <section id="atividades">
+            <h2>Atividades do Projeto</h2>
+            <ul>
+                <li><strong>Workshops de Empreendedorismo:</strong> Sessões práticas sobre gestão de negócios, planejamento e inovação.</li>
+                <li><strong>Feiras e Exposições:</strong> Oportunidades para jovens empreendedores apresentarem seus projetos e produtos.</li>
+                <li><strong>Visitas Técnicas:</strong> Experiências em empresas e propriedades rurais que utilizam práticas inovadoras.</li>
+                <li><strong>Mentoria e Consultoria:</strong> Apoio contínuo de mentores e especialistas em agricultura e negócios.</li>
+                <li><strong>Programas de Financiamento:</strong> Ajuda para obtenção de recursos financeiros para iniciar ou expandir negócios rurais.</li>
+            </ul>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Para mais informações sobre o Projeto Agrinho e como se envolver, entre em contato conosco:</p>
+            <p>Email: <a href="mailto:contato@agrinho.org">contato@agrinho.org</a></p>
+            <p>Telefone: (00) 1234-5678</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Projeto Agrinho. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
